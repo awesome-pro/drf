@@ -7,8 +7,8 @@ class TimeStampedModel(models.Model):
     An abstract base model that provides self-updating
     created and modified fields.
     """
-    created_at = models.DateTimeField(_('created at'), auto_now_add=True)
-    updated_at = models.DateTimeField(_('updated at'), auto_now=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
         abstract = True

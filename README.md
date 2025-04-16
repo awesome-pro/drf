@@ -59,7 +59,7 @@ drf/
 
 5. **Create PostgreSQL database**
    ```bash
-   createdb drf_db
+   createdb test
    ```
 
 6. **Run migrations**
